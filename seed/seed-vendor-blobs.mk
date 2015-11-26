@@ -191,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/google/seed/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/google/seed/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/google/seed/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/google/seed/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/google/seed/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
