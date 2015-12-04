@@ -41,12 +41,10 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libidl \
     libmdmdetect \
-    libqcci_legacy \
-    libqmi \
+    libqmi_cci \
     libqmi_client_qmux \
     libqmiservices \
-    libqmi
-
+    
 PRODUCT_PACKAGES += \
     libtime_genoff
 
