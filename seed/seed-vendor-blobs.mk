@@ -162,11 +162,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/google/seed/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/google/seed/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/google/seed/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/google/seed/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/google/seed/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/google/seed/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/google/seed/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -175,7 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/google/seed/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/google/seed/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/google/seed/proprietary/vendor/lib/libjni_livedisplay_qdcm.so:system/vendor/lib/libjni_livedisplay_qdcm.so \
+    vendor/google/seed/proprietary/vendor/lib/libjni_livedisplay.so:system/vendor/lib/libjni_livedisplay.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
