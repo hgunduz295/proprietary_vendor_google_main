@@ -43,12 +43,12 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libqmi_cci \
     libqmi_client_qmux \
-    libqmiservices \
+    libqmiservices
     
 PRODUCT_PACKAGES += \
     libtime_genoff
 
-#PRODUCT_PACKAGES += \
-#    libwpa_qmi_eap_proxy
+PRODUCT_PACKAGES += \
+    libwpa_qmi_eap_proxy
 
 $(call inherit-product, vendor/google/seed/seed-vendor-blobs.mk)

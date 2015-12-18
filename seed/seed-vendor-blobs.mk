@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/google/seed/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/google/seed/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/google/seed/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/google/seed/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/google/seed/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/google/seed/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
@@ -164,6 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/google/seed/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/google/seed/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/google/seed/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
