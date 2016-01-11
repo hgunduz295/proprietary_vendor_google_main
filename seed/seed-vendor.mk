@@ -48,7 +48,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
-PRODUCT_PACKAGES += \
-    libwpa_qmi_eap_proxy
-
 $(call inherit-product, vendor/google/seed/seed-vendor-blobs.mk)
