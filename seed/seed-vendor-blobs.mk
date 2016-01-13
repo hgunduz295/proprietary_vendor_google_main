@@ -199,15 +199,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
     vendor/google/seed/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/google/seed/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/google/seed/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/google/seed/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+        vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/google/seed/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/google/seed/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/google/seed/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/google/seed/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/google/seed/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/google/seed/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/google/seed/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/google/seed/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
