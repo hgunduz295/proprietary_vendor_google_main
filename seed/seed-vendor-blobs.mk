@@ -118,20 +118,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/google/seed/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/google/seed/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/google/seed/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/google/seed/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/google/seed/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/google/seed/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/google/seed/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/google/seed/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/google/seed/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/google/seed/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/google/seed/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/google/seed/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/google/seed/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/google/seed/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/google/seed/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/google/seed/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/google/seed/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/google/seed/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/google/seed/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
