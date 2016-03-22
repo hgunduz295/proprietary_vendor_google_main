@@ -180,8 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/google/seed/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/google/seed/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/google/seed/proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
-    vendor/google/seed/proprietary/app/shutdownlistener/shutdownlistener.apk:system/app/shutdownlistener/shutdownlistener.apk \
     vendor/google/seed/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/google/seed/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/google/seed/proprietary/bin/radish:system/bin/radish \
@@ -203,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/google/seed/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/google/seed/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/google/seed/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/google/seed/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/google/seed/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/google/seed/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so
