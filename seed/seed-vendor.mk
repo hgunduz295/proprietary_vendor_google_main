@@ -34,15 +34,6 @@ PRODUCT_PACKAGES += \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
-    libdiag \
-    libdsutils \
-    libidl \
-    libmdmdetect \
-    libqmi_cci \
-    libqmi_client_qmux \
-    libqmiservices
-    
-PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/google/seed/seed-vendor-blobs.mk)

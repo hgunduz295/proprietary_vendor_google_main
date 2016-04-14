@@ -170,14 +170,20 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/google/seed/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/google/seed/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/google/seed/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/google/seed/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/google/seed/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/google/seed/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/google/seed/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/google/seed/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/google/seed/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/google/seed/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/google/seed/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/google/seed/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/google/seed/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/google/seed/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/google/seed/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/google/seed/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/google/seed/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/google/seed/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/google/seed/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -185,16 +191,17 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/bin/radish:system/bin/radish \
     vendor/google/seed/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/google/seed/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/google/seed/proprietary/etc/permissions/com.qrd.wappush.xml:system/etc/permissions/com.qrd.wappush.xml \
     vendor/google/seed/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/google/seed/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/google/seed/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/google/seed/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/google/seed/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/google/seed/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/google/seed/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/google/seed/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/google/seed/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/google/seed/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/google/seed/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
