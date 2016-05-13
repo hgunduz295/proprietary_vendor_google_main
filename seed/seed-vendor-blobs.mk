@@ -193,7 +193,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/google/seed/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/google/seed/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/google/seed/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/google/seed/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/google/seed/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
