@@ -65,6 +65,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libactuator_AK7345_camera.so:system/vendor/lib/libactuator_AK7345_camera.so \
     vendor/google/seed/proprietary/vendor/lib/libactuator_dw9718s_olqba20_camcorder.so:system/vendor/lib/libactuator_dw9718s_olqba20_camcorder.so \
     vendor/google/seed/proprietary/vendor/lib/libactuator_dw9718s_olqba20_camera.so:system/vendor/lib/libactuator_dw9718s_olqba20_camera.so \
+    vendor/google/seed/proprietary/vendor/lib/libactuator_dw9714a_cma334.so:system/vendor/lib/libactuator_dw9714a_cma334.so \
+    vendor/google/seed/proprietary/vendor/lib/libactuator_dw9714a_cma334_camcorder.so:system/vendor/lib/libactuator_dw9714a_cma334_camcorder.so \
+    vendor/google/seed/proprietary/vendor/lib/libactuator_dw9714a_cma334_camera.so:system/vendor/lib/libactuator_dw9714a_cma334_camera.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_hi545_8916_common.so:system/vendor/lib/libchromatix_hi545_8916_common.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_120fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_120fps.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_60fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_60fps.so \
@@ -96,12 +99,23 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_common.so:system/vendor/lib/libchromatix_s5k4h5_cma334_common.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_default_video.so:system/vendor/lib/libchromatix_s5k4h5_cma334_default_video.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_hfr_60fps.so:system/vendor/lib/libchromatix_s5k4h5_cma334_hfr_60fps.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_hfr_90fps.so:system/vendor/lib/libchromatix_s5k4h5_cma334_hfr_90fps.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_hfr_120fps.so:system/vendor/lib/libchromatix_s5k4h5_cma334_hfr_120fps.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_liveshot.so:system/vendor/lib/libchromatix_s5k4h5_cma334_liveshot.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_preview.so:system/vendor/lib/libchromatix_s5k4h5_cma334_preview.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_snapshot.so:system/vendor/lib/libchromatix_s5k4h5_cma334_snapshot.so \
+    vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k4h5_cma334_video_hd.so:system/vendor/lib/libchromatix_s5k4h5_cma334_video_hd.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_s5k3m2_olqba20_eeprom.so:system/vendor/lib/libmmcamera_s5k3m2_olqba20_eeprom.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_s5k5e2_olq5f19_eeprom.so:system/vendor/lib/libmmcamera_s5k5e2_olq5f19_eeprom.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_hi545_8916.so:system/vendor/lib/libmmcamera_hi545_8916.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_imx214_8916.so:system/vendor/lib/libmmcamera_imx214_8916.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_s5k3m2_olqba20.so:system/vendor/lib/libmmcamera_s5k3m2_olqba20.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera_s5k5e2_olq5f19.so:system/vendor/lib/libmmcamera_s5k5e2_olq5f19.so \
+    vendor/google/seed/proprietary/vendor/lib/libmmcamera_s5k4h5_cma334.so:system/vendor/lib/libmmcamera_s5k4h5_cma334.so \
+    vendor/google/seed/proprietary/vendor/lib/libmmcamera_s5k4h5_cma334_eeprom.so:system/vendor/lib/libmmcamera_s5k4h5_cma334_eeprom.so \
     vendor/google/seed/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/google/seed/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/google/seed/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
