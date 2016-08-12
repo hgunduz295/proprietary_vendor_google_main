@@ -170,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/google/seed/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/google/seed/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/google/seed/proprietary/vendor/lib/libjni_livedisplay.so:system/vendor/lib/libjni_livedisplay.so \
     vendor/google/seed/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/google/seed/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/google/seed/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
