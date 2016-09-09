@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/google/seed/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/google/seed/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/google/seed/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/google/seed/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/google/seed/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/google/seed/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -236,7 +237,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
+    libloc_core \
     libloc_ds_api \
+    libloc_eng \
     libmm-disp-apis \
     libtime_genoff \
     shutdownlistener \
