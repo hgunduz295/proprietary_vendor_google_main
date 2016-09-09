@@ -27,11 +27,8 @@ ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/google/seed/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/google/seed/proprietary/bin/cnd:system/bin/cnd \
-    vendor/google/seed/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/google/seed/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/google/seed/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/google/seed/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/google/seed/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/google/seed/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/google/seed/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -42,9 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/google/seed/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/google/seed/proprietary/bin/vm_bms:system/bin/vm_bms \
-    vendor/google/seed/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/google/seed/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/google/seed/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/google/seed/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/google/seed/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/google/seed/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
@@ -52,26 +46,12 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/google/seed/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/google/seed/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/google/seed/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/google/seed/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/google/seed/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/google/seed/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/google/seed/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/google/seed/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/google/seed/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/google/seed/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/google/seed/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/google/seed/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/google/seed/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/google/seed/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/google/seed/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/google/seed/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/google/seed/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/google/seed/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/google/seed/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/google/seed/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/google/seed/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    vendor/google/seed/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/google/seed/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/google/seed/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/google/seed/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -148,15 +128,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so \
     vendor/google/seed/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so \
     vendor/google/seed/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/google/seed/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/google/seed/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/google/seed/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/google/seed/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/google/seed/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/google/seed/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/google/seed/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/google/seed/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/google/seed/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/google/seed/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/google/seed/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/google/seed/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -175,9 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/google/seed/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/google/seed/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/google/seed/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
-    vendor/google/seed/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/google/seed/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/google/seed/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/google/seed/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
@@ -219,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/google/seed/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/google/seed/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/google/seed/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/google/seed/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/google/seed/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -240,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/google/seed/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/google/seed/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/google/seed/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
@@ -256,14 +225,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/google/seed/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/google/seed/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/google/seed/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/google/seed/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/google/seed/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/google/seed/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/google/seed/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/google/seed/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/google/seed/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/google/seed/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/google/seed/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/google/seed/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/google/seed/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -276,9 +241,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     shutdownlistener \
     TimeService \
-    CNEService \
-    com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
