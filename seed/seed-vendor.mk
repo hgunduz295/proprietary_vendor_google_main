@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/google/seed/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/google/seed/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/google/seed/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/google/seed/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/google/seed/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/google/seed/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
