@@ -481,3 +481,5 @@ PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook
 endif
+
+$(call inherit-product, vendor/qcom/binaries/msm8916/graphics/graphics-vendor.mk)
